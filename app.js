@@ -36,7 +36,7 @@ function calculateProfitAndLoss(inital,quantity,current){
         // loss.style.color = 'red';
        
 
-        showOutput(`Hey the loss ${loss.toFixed(2)} and the percent ${lossPercentage.toFixed(2)}%`);
+        showOutput(  `😢Hey the loss ${loss.toFixed(2)} and the percent ${lossPercentage.toFixed(2)}%`);
      
     }
     else if(current>inital){
@@ -46,11 +46,11 @@ function calculateProfitAndLoss(inital,quantity,current){
 
         var profitPercent = (profit/inital) * 100;
 
-        showOutput(`Hey the profit ${profit.toFixed(2)} and the percent ${profitPercent.toFixed(2)}%`);
+        showOutput(` 😍 Hey the profit ${profit.toFixed(2)} and the percent ${profitPercent.toFixed(2)}%`);
     }
     else{
         //rest logic
-       showOutput(`no pain no gain and no gain no pain`);
+       showOutput(`no pain no gain 😢😍  and no gain no pain 😢😍 `);
     }
 }
 

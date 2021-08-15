@@ -3,10 +3,11 @@ body{
     background-image: url(stock.png);
     background-repeat: no-repeat;
     
-    background-size: auto 100%;
-    
-    background-position: left top;
-    color: white;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white
 }
 
 label{
@@ -25,4 +26,5 @@ label{
 
 html, body {
     height:100%;
+    width: 100%;
 } 
