@@ -2,8 +2,9 @@ body{
     text-align: center;
     background-image: url(stock.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:100%;
     color: white;
+    padding-inline-start: 0px;
 }
 
 label{
@@ -11,3 +12,10 @@ label{
     padding-bottom: 1rem;
 }
 
+#output-box{
+    padding-top: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    font-style: italic;
+   
+}
