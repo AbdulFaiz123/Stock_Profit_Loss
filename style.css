@@ -2,7 +2,10 @@ body{
     text-align: center;
     background-image: url(stock.png);
     background-repeat: no-repeat;
-    background-size:100%;
+    
+    background-size: auto 100%;
+    
+    background-position: left top;
     color: white;
 }
 
@@ -18,3 +21,8 @@ label{
     font-style: italic;
    
 }
+
+
+html, body {
+    height:100%;
+} 
