@@ -1,0 +1,13 @@
+body{
+    text-align: center;
+    background-image: url(stock.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+label{
+    display: block;
+    padding-bottom: 1rem;
+}
+
